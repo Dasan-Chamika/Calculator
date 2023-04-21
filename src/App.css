@@ -1,0 +1,11 @@
+.App {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #d9d9db;
+}
+
+.calBody {
+  height: 86.5vh;
+  display: flex;
+  align-items: center;
+}

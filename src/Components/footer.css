@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+.footer {
+  text-align: center;
+  line-height: 23px;
+  position: fixed;
+  bottom: 0;
+  width: 60%;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  font-family: Source Code Pro;
+}
+
+.footer span {
+  cursor: default;
+}

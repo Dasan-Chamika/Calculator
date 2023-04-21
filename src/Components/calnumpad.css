@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.main__numpad {
+  width: 570px;
+  height: 75%;
+  margin-top: 20px;
+}
+
+.firstRow,
+.secRow,
+.thirdRow,
+.fourthRow,
+.fifthRow {
+  display: flex;
+  height: 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.numDiv {
+  margin: 30px;
+  font-size: 28px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding-top: 17px;
+  text-align: center;
+  font-family: Ubuntu;
+  font-weight: bold;
+  background-color: #171733;
+  color: #fff;
+  cursor: pointer;
+}
+
+.numDiv:hover {
+  transform: scale(1.05);
+}
+
+.emptydiv {
+  margin: 30px;
+  width: 70px;
+  height: 70px;
+  padding-top: 14px;
+}

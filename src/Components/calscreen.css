@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+.main__screen {
+  border: 3px solid rgb(136, 133, 133);
+  border-radius: 8px;
+  width: 570px;
+  height: 15%;
+  margin: 30px 0 0;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  font-family: Roboto Slab;
+  font-weight: bold;
+}
+
+.preValue {
+  font-size: 30px;
+  cursor: default;
+}
+
+.currentValue {
+  font-size: 45px;
+  padding-top: 10px;
+  cursor: default;
+}
